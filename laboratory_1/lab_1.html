@@ -2,9 +2,131 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Laboratory 1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alexander Oblego - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+        }
+        .profile-pic {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .profile-pic img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+        .about, .contact, .interests, .technologies {
+            margin-bottom: 40px;
+        }
+        h2 {
+            color: #333;
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            background-color: #ddd;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .contact form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact form input, .contact form textarea {
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        .contact form button {
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
-lab 1
+
+<header>
+    <h1>Alexander Oblego</h1>
+    <p>Master's Student in Computer Science</p>
+</header>
+
+<div class="container">
+
+    <div class="profile-pic">
+        <img src="./laboratory_1/alexander_oblego.jpg" alt="Alexander Oblego">
+    </div>
+
+    <div class="about">
+        <h2>About Me</h2>
+        <p>
+            I am currently pursuing a Master's degree in Computer Science, building upon my extensive experience as a developer. My academic and professional journey has provided me with a strong foundation in software development methodologies, tools, and technologies. I am passionate about continuous learning, which drives me to explore new technologies and stay updated with the latest trends in the industry. My goal is to leverage my technical expertise and academic knowledge to innovate and solve complex problems, contributing to meaningful advancements in the field of computer science.
+        </p>
+    </div>
+
+    <div class="interests">
+        <h2>Interests</h2>
+        <ul>
+            <li>Agile Project Management</li>
+            <li>Web Development</li>
+            <li>Team Leadership</li>
+            <li>Continuous Learning</li>
+            <li>Public Speaking</li>
+        </ul>
+    </div>
+
+    <div class="technologies">
+        <h2>Technologies</h2>
+        <ul>
+            <li>C#, C++, Python</li>
+            <li>Laravel, JavaScript, HTML & CSS, ASP.NET</li>
+            <li>MySQL, MSSQL</li>
+            <li>Linux (Ubuntu), Windows</li>
+            <li>Digital Ocean, Termius, phpMyAdmin, Navicat</li>
+        </ul>
+    </div>
+
+    <div class="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:alexanderoblego4570089@gmail.com">alexanderoblego4570089@gmail.com</a></p>
+        <p>Phone: (571)604-9898</p>
+        <p>Github: <a href="https://github.com/Alks080900" target="_blank">https://github.com/Alks080900</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/alexanderoblego/" target="_blank">https://www.linkedin.com/in/alexanderoblego/</a></p>
+
+        <form action="submit-form-url-here" method="post">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+</div>
+
 </body>
 </html>
