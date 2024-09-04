@@ -1,6 +1,6 @@
-# Alexander Oblego - Portfolio
+# Alexander Oblego - WEB APPLICATION PROGRAMMING LABORATORIES
 
-Welcome to my sample personal portfolio! I am a recent web developer eager to learn and explore new technologies to enhance my skills.
+Welcome! I'm a current student pursuing Master's Degree in Computer Science eager to learn and explore new technologies to enhance my skills.
 
 ## Contact
 
