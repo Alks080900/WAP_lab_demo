@@ -5,6 +5,12 @@ body {
     background-color: #ffffff;
 }
 
+image {
+    border:1px;
+    width:88px;
+    height:31px
+}
+
 .form-container {
     max-width: 1000px;
     margin: 20px auto;
