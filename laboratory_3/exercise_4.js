@@ -1,5 +1,6 @@
 const stringsToUpperCase = function(arr) {
-    return arr.reduce((result, str) => {
+    return arr
+        .reduce((result, str) => {
         if (str.length > 5) {
             result.push(str.toUpperCase());
         }
