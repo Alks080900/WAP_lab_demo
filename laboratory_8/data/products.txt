@@ -1,0 +1,8 @@
+[
+  {
+    "id": "156784",
+    "title": "Shampoo",
+    "price": "99.89",
+    "description": "Dove shampoo for men."
+  }
+]
