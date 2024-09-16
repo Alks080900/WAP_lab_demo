@@ -1,7 +1,0 @@
-[
-  {
-    "id": "qYeRZoOt",
-    "username": "xander1234",
-    "password": "098765678"
-  }
-]
