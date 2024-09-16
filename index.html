@@ -5,16 +5,51 @@
     <meta name="description" content="Laboratory, Demo, WAP"/>
     <meta name="keywords" content="HTML"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Laboratory listing</title>
+    <title>Laboratory Listing</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-<h1>Lab Demo</h1>
-<ul>
-    <li><a href="laboratory_1/lab_1.html" target="_blank">Lab 1</a></li>
-    <li><a href="laboratory_2/lab_2.html" target="_blank">Lab 2</a></li>
-    <li><a href="https://github.com/Alks080900/WAP_lab_demo/tree/main/laboratory_3" target="_blank">Lab 3</a></li>
-    <li><a href="https://github.com/Alks080900/WAP_lab_demo/tree/main/laboratory_4" target="_blank">Lab 4</a></li>
-    <li><a href="https://github.com/Alks080900/WAP_lab_demo/tree/main/laboratory_5" target="_blank">Lab 5</a></li>
-</ul>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">WAP472</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+</nav>
+
+<section class="bg-light text-center p-5">
+    <div class="container">
+        <h1 class="display-4">Welcome to the Lab Demos!</h1>
+        <p class="lead">Explore various laboratory demos for Web Application Programming (WAP).</p>
+    </div>
+</section>
+
+<section id="labs" class="container my-5">
+    <h2 class="text-center mb-4">Laboratories</h2>
+    <div class="list-group">
+        <a href="laboratory_1/lab_1.html" target="_blank" class="list-group-item list-group-item-action">
+            Lab 1
+        </a>
+        <a href="laboratory_2/lab_2.html" target="_blank" class="list-group-item list-group-item-action">
+            Lab 2
+        </a>
+        <a href="https://github.com/Alks080900/WAP_lab_demo/tree/main/laboratory_3" target="_blank" class="list-group-item list-group-item-action">
+            Lab 3
+        </a>
+        <a href="https://github.com/Alks080900/WAP_lab_demo/tree/main/laboratory_4" target="_blank" class="list-group-item list-group-item-action">
+            Lab 4
+        </a>
+        <a href="https://github.com/Alks080900/WAP_lab_demo/tree/main/laboratory_5" target="_blank" class="list-group-item list-group-item-action">
+            Lab 5
+        </a>
+    </div>
+</section>
+
+<footer class="bg-dark text-white text-center p-3">
+    <p>&copy; 2024 All Rights Reserved.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
