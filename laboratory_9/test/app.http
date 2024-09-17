@@ -1,0 +1,26 @@
+POST http://localhost:3000/books
+Content-Type: application/json
+
+{
+  "title": "123",
+  "ISBN": "SG4567326T6GD",
+  "publishedDate": "August 45, 1993",
+  "author": "Alexander"
+}
+
+###
+GET http://localhost:3000/books
+
+###
+GET http://localhost:3000/books/
+
+###
+PUT http://localhost:3000/books/3j8o4v6ghy
+Content-Type: application/json
+
+{
+  "author": "John Doe"
+}
+
+###
+DELETE http://localhost:3000/books/
