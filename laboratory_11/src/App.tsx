@@ -7,9 +7,9 @@ import { format } from 'date-fns';
 import Item from './Item';
 
 const user: User = {
-  uid: '30009257',
-  avatar: avatar2,
-  uname: 'John Doe',
+  uid: '36080105',
+  avatar: avatar,
+  uname: 'Song Xu',
 };
 
 interface User {
@@ -35,6 +35,7 @@ const App = () => {
   const [comments, setComments] = useState<Comment[]>([]);
   const [activeTab, setActiveTab] = useState('hot');
   const [newComment, setNewComment] = useState('');
+  const [currentUser, setCurrentUser] = useState<User>(user);
 
   useEffect(() => {
     async function getList() {
@@ -121,7 +122,7 @@ const App = () => {
           <div className="box-normal">
             <div className="reply-box-avatar">
               <div className="bili-avatar">
-                <img className="bili-avatar-img" src={user.avatar} alt="Profile" />
+                <img className="bili-avatar-img" src={currentUser.avatar} alt="Profile" />
               </div>
             </div>
             <div className="reply-box-wrap">
