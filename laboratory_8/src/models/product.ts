@@ -18,7 +18,7 @@ class Product {
     }
 
     update() {
-        const productIndex = products.findIndex(prod => prod.id === this.id);
+        const productIndex = products.findIndex(prod => prod.ProductID === this.ProductID);
         if (productIndex >= 0) {
             products[productIndex] = this;
         }

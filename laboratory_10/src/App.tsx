@@ -165,12 +165,10 @@ const App = () => {
                       <div className="reply-info">
                         <span className="reply-time">{comment.ctime}</span>
                         <span className="reply-time">Like: {comment.like}</span>
-                        {comment.user.uid === user.uid && (
-                            <span className="delete-btn" onClick={() => handleDelete(comment.rpid)}>Delete</span>
-                        )}
-                      </div>
+                        <span className="delete-btn" onClick={ () => handleDelete(comment.rpid)}>Delete</span>
                       </div>
                     </div>
+                  </div>
                 </div>
             ))}
           </div>
